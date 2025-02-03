@@ -17,11 +17,11 @@ struct move_pos
     {
     }
 
-    bool operator==(const move_pos &other) const
+    bool operator==(const move_pos& other) const
     {
         return (x == other.x && y == other.y && x2 == other.x2 && y2 == other.y2);
     }
-    bool operator!=(const move_pos &other) const
+    bool operator!=(const move_pos& other) const
     {
         return !(*this == other);
     }
